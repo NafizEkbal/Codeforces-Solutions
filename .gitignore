@@ -1,0 +1,15 @@
+# Ignore all .exe files
+*.exe
+
+# Ignore build folders
+build/
+bin/
+obj/
+
+# Ignore other compiled files
+*.out
+*.class
+*.dll
+*.so
+*.a
+*.o
