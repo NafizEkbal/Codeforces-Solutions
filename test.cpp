@@ -1,20 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int check(string s,char a,char b){
-    int l=s.length();
-    bool getA=false;
-
-    for(int i=l-1;i>=0;i--){
-        if(!getA && s[i]==a){
-            getA=true; 
-        }else if(getA && s[i]==b){
-            return l-i-2;
-        }
-    }
-    return 1e9;
-}
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -22,17 +8,32 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        string s;
-        cin>>s;
-        int steps=1e9;
-        
-        steps=min(steps,check(s,'5','2'));
-        steps=min(steps,check(s,'5','7'));
-        steps=min(steps,check(s,'0','0'));
-        steps=min(steps,check(s,'0','5'));
+        string p, s;
+        cin >> p >> s;
 
-        cout<<steps<<endl;
+        int i = 0, j = 0;
+        int n = p.length(), m = s.length();
+        bool valid = true;
 
+        while (i < n && j < m) {
+            if (p[i] != s[j]) {
+                valid = false;
+                break;
+            }
+            
+            int count = 1;
+            if (j + 1 < m && s[j] == s[j + 1]) {
+                count++;
+            }
+            i++;
+            j += count;
+        }
+
+    
+        if (i == n && j == m)
+            cout << "YES\n";
+        else
+            cout << "NO\n";
     }
 
     return 0;
