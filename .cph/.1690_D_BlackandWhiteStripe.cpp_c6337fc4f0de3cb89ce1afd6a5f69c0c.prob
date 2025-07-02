@@ -1,0 +1,1 @@
+{"name":"Local: 1690_D_BlackandWhiteStripe","url":"e:\\CodeForce\\1690_D_BlackandWhiteStripe.cpp","tests":[{"id":1747567271202,"input":"4\n5 3\nBBWBW\n5 5\nBBWBW\n5 1\nBBWBW\n1 1\nW\n","output":"1\n2\n0\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CodeForce\\1690_D_BlackandWhiteStripe.cpp","group":"local","local":true}
