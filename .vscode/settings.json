@@ -5,6 +5,7 @@
         "iostream": "cpp",
         "cmath": "cpp",
         "complex": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "cstdlib": "cpp"
     }
 }
