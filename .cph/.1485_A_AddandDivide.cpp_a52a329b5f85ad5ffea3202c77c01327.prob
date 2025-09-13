@@ -1,1 +1,0 @@
-{"name":"Local: 1485_A_AddandDivide","url":"e:\\CodeForce\\1485_A_AddandDivide.cpp","tests":[{"id":1751444260372,"input":"6\n9 2\n1337 1\n1 1\n50000000 4\n991026972 997\n1234 5678\n","output":"4\n9\n2\n12\n3\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CodeForce\\1485_A_AddandDivide.cpp","group":"local","local":true}

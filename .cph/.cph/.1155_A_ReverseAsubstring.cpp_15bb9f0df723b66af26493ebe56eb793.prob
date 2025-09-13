@@ -1,1 +1,0 @@
-{"name":"Local: 1155_A_ReverseAsubstring","url":"e:\\CodeForce\\.cph\\1155_A_ReverseAsubstring.cpp","tests":[{"id":1754916580743,"input":"7\nabacaba","output":"YES\n2 5"},{"id":1754916597108,"input":"6\naabcfg\n","output":"NO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CodeForce\\.cph\\1155_A_ReverseAsubstring.cpp","group":"local","local":true}

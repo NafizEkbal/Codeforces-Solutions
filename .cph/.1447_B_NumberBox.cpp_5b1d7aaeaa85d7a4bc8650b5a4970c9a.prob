@@ -1,1 +1,0 @@
-{"name":"Local: 1447_B_NumberBox","url":"e:\\CodeForce\\1447_B_NumberBox.cpp","tests":[{"id":1751718815879,"input":"2\n2 2\n-1 1\n1 1\n3 4\n0 -1 -2 -3\n-1 -2 -3 -4\n-2 -3 -4 -5\n","output":"2\n30\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CodeForce\\1447_B_NumberBox.cpp","group":"local","local":true}
